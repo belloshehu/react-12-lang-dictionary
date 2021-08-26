@@ -82,7 +82,7 @@ function App() {
               checked={theme.theme}
               onChange={handleChange}
               name="theme"
-              color={themeColor=="dark"? 'white':'primary'}
+              color={themeColor==="dark"? 'white':'primary'}
               inputProps={{ 'aria-label': 'secondary checkbox' }}
             />
           </div>
