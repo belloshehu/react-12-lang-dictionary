@@ -4,16 +4,7 @@ import {CloudOff} from '@material-ui/icons';
 import './ErrorModal.css';
 
 const Error = ({error, setError, themeColor}) => {
-    const errorTheme = createTheme(
-        {
-            palette:{
-                primary:{
-                    main: '#fff',
-                },
-                type: 'dark',
-            },
-        }
-    )
+
     const style = {
         container: {
             padding: '5px',
