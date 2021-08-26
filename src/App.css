@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width:500px){
+  .themeMode {
+    position: 'absolute';
+    right: '20px';
+    top: '5px';
+  }
+}
+@media screen and (max-width:499px){
+  .themeMode {
+    position: 'absolute';
+    right: '20px';
+    top: '3px'
+  }
+}

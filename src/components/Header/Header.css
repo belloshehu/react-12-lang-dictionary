@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px 0px;
+}
+.select, .search {
+    width: 90%;
+    text-align: left;
+    color: white;
+}
+@media screen and (max-width:499px) {
+    .title {
+        font-size: 8vw;
+        font-family: monospace, sans-serif;
+    }
+    .header {
+        height: 25vh;
+    }
+    
+}
+@media screen and (min-width:500px) {
+    .title {
+        font-size: 6vw;
+        font-family: monospace, sans-serif;
+    }
+    .header {
+        height: 30vh;
+    }
+    
+}
