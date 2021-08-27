@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Paper, createTheme, Button} from '@material-ui/core';
+import {Grid, Paper, Button} from '@material-ui/core';
 import {CloudOff} from '@material-ui/icons';
 import './ErrorModal.css';
 
