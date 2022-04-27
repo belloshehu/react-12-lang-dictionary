@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React 12 Languages disctionary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an online disctionary that can be used in 12 different languages. Word meaning is accompanied with an audio clip, synonyms, examples etc.
+
+## URL
+It is available live on the following url:
+[12-lang-dictioanry](https://12-lang-dictionary.netlify.app/)
 
 ## Available Scripts
 
